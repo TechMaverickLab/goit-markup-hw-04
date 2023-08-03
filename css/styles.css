@@ -393,7 +393,7 @@ body[data-page='portfolio'] .address-list li:nth-child(2) .address-item {
   gap: 24px;
 }
 
-.page-footer.social-list {
+.page-footer .social-list {
   gap: 16px;
 }
 
