@@ -221,10 +221,6 @@ body[data-page='portfolio'] .address-list li:nth-child(2) .address-item {
   color: var(--text-color);
 }
 
-.product .text {
-  color: var(--light-color);
-}
-
 .page-footer .text {
   color: var(--modal-overlay-color);
 }
@@ -664,14 +660,14 @@ body[data-page='portfolio'] .address-list li:nth-child(2) .address-item {
 }
 
 .finger-item:hover .product-text,
-.finger-item:focus-within .product-text {
+.finger-item:focus .product-text {
   transform: translateY(0%);
 }
 
-.finger-item:not(:hover) .product-text,
-.finger-item:not(:focus-within) .product-text {
+/* .finger-item:not(:hover) .product-text,
+.finger-item:not(:focus) .product-text {
   transition: transform 1s ease;
-}
+} */
 
 .portfolio-section {
   padding-top: 96px;
