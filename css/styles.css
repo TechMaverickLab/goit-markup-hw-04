@@ -643,41 +643,33 @@ body[data-page='portfolio'] .address-list li:nth-child(2) .address-item {
   overflow: hidden;
 }
 
-.product-overlay {
+.product-text {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  transform: translateY(110%);
-  transition: transform 0.5s ease;
-}
-
-.product-text {
-  position: absolute;
-  top: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   background-color: #4d5ae5;
   padding: 40px 32px;
-  height: 100%;
-  width: 100%;
+  transform: translateY(110%);
+  transition: transform 0.5s ease;
 }
 
 .finger-item .portfolio-list.link-icon {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.finger-item:hover .product-overlay,
-.finger-item:focus-within .product-overlay {
+.finger-item:hover .product-text,
+.finger-item:focus-within .product-text {
   transform: translateY(0%);
-  opacity: 1;
 }
 
-.finger-item:not(:hover) .product-overlay,
-.finger-item:not(:focus-within) .product-overlay {
+.finger-item:not(:hover) .product-text,
+.finger-item:not(:focus-within) .product-text {
   transition: transform 1s ease;
 }
 
