@@ -649,7 +649,7 @@ body[data-page='portfolio'] .address-list li:nth-child(2) .address-item {
   left: 0;
   width: 100%;
   height: 100%;
-  transform: translateY(100%);
+  transform: translateY(110%);
   transition: transform 0.5s ease;
 }
 
