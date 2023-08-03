@@ -660,7 +660,7 @@ body[data-page='portfolio'] .address-list li:nth-child(2) .address-item {
 }
 
 .finger-item:hover .product-text,
-.finger-item:focus .product-text {
+.finger-item:focus-within .product-text {
   transform: translateY(0%);
 }
 
